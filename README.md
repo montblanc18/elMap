@@ -1,10 +1,10 @@
-#概要
-天体の座標を入力すると、その日のelevation mapを描画する。  
-同時に、その日の太陽のelevation mapも表示する。
+#elMap
+"elMap" is a ruby program which draws the elevation map of the object and Sun with gnuplot.
+You have to set the RA and DEC of the object as shown in below.
 
-#使い方
+#How to use
 ```bash
-$ ruby elMap.rb -r <天体のra> -d <天体のdec>
+$ ruby elMap.rb -r <the ra of object> -d <the dec of object>
 $ ruby elMap.rb -h  
 Usage: elMap [options]  
     -r, --ra X                       Right Accension [deg]  
